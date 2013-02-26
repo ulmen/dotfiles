@@ -1,0 +1,19 @@
+[user]
+  name = Alex Vidchinkin
+  email = ulmen.ua@gmail.com
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+[core]
+  excludesfile = ~/.gitignore
+  pager=less -FXRS
+[alias]
+  co=checkout
+  s=status
+  diff-words=diff --color-words
+  log-stat=log --stat=160,300
+  ci=commit
+[merge]
+  tool=vimdiff
