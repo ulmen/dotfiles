@@ -26,6 +26,7 @@ Bundle 'snipMate'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'kucaahbe/vim-common-tips'
 Bundle 'kchmck/vim-coffee-script'
+Bundle 'airblade/vim-gitgutter'
 
 Bundle 'sickill/vim-monokai'
 
