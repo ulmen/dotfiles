@@ -15,5 +15,6 @@
   diff-words=diff --color-words
   log-stat=log --stat=160,300
   ci=commit
+  lol = log --pretty=oneline --abbrev-commit --graph --decorate
 [merge]
   tool=vimdiff
