@@ -27,6 +27,7 @@ Bundle 'Lokaltog/vim-powerline'
 Bundle 'kucaahbe/vim-common-tips'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'airblade/vim-gitgutter'
+Bundle 'Puppet-Syntax-Highlighting'
 
 Bundle 'sickill/vim-monokai'
 
