@@ -30,6 +30,7 @@ Bundle 'airblade/vim-gitgutter'
 Bundle 'Puppet-Syntax-Highlighting'
 
 Bundle 'sickill/vim-monokai'
+Bundle 'chriskempson/vim-tomorrow-theme'
 
 filetype plugin indent on     " required!
 "
@@ -42,7 +43,8 @@ filetype plugin indent on     " required!
 " see :h vundle for more details or wiki for FAQ
 " NOTE: comments after Bundle command are not allowed..
 
-colorscheme monokai
+"colorscheme monokai
+colorscheme Tomorrow-Night-Bright
 
 " Indents
 set autoindent
