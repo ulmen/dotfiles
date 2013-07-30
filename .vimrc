@@ -28,6 +28,7 @@ Bundle 'kucaahbe/vim-common-tips'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'Puppet-Syntax-Highlighting'
+Bundle 'slim-template/vim-slim'
 
 Bundle 'sickill/vim-monokai'
 Bundle 'chriskempson/vim-tomorrow-theme'
