@@ -18,3 +18,5 @@
   lol = log --pretty=oneline --abbrev-commit --graph --decorate
 [merge]
   tool=vimdiff
+[push]
+  default = tracking
