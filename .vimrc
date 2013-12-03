@@ -29,6 +29,9 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'Puppet-Syntax-Highlighting'
 Bundle 'slim-template/vim-slim'
+Bundle 'Jinja'
+
+Bundle 'wakatime/vim-wakatime'
 
 Bundle 'sickill/vim-monokai'
 Bundle 'chriskempson/vim-tomorrow-theme'
@@ -91,3 +94,7 @@ map <D-F> :Ack<space>
 
 " Powerline
 let g:Powerline_symbols = 'fancy'
+
+" jinja syntax on
+autocmd BufNewFile,BufRead *.j2   set syntax=jinja
+
