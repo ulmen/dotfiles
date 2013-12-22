@@ -72,7 +72,7 @@ set shell=/bin/sh
 
 if has("gui_running")
   "https://gist.github.com/baopham/1838072
-  set guifont=Monaco\ for\ Powerline:h12
+  set guifont=Monaco\ for\ Powerline:h14
   set guioptions=egmrt
 endif
 
