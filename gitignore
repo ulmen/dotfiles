@@ -1,4 +1,5 @@
+# vim files
 *~
-*.swp
+.*.sw[po]
 .pivotalrc
 .DS_Store
