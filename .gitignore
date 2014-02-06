@@ -1,3 +1,5 @@
 *~
 *.swp
 .pivotalrc
+.DS_Store
+.idea

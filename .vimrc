@@ -30,8 +30,7 @@ Bundle 'airblade/vim-gitgutter'
 Bundle 'Puppet-Syntax-Highlighting'
 Bundle 'slim-template/vim-slim'
 Bundle 'Jinja'
-
-Bundle 'wakatime/vim-wakatime'
+Bundle 'saltstack/salt-vim'
 
 Bundle 'sickill/vim-monokai'
 Bundle 'chriskempson/vim-tomorrow-theme'
