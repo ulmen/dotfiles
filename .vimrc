@@ -1,39 +1,35 @@
-set nocompatible               " be iMproved
-filetype off                   " required!
+set nocompatible              " be iMproved, required
+filetype off                  " required
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-" let Vundle manage Vundle
-" required!
-Bundle 'gmarik/vundle'
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
 
 " My Bundles here:
 "
 " original repos on github
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-rails.git'
-Bundle 'The-NERD-Commenter'
-Bundle 'The-NERD-tree'
-Bundle 'ack.vim'
-Bundle 'bufexplorer.zip'
-Bundle 'vim-coffee-script'
-Bundle 'L9'
-Bundle 'FuzzyFinder'
-Bundle 'ctrlp.vim'
-Bundle 'SuperTab-continued.'
-Bundle 'snipMate'
-Bundle 'Lokaltog/vim-powerline'
-Bundle 'kucaahbe/vim-common-tips'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'airblade/vim-gitgutter'
-Bundle 'Puppet-Syntax-Highlighting'
-Bundle 'slim-template/vim-slim'
-Bundle 'Jinja'
-Bundle 'saltstack/salt-vim'
-
-Bundle 'sickill/vim-monokai'
-Bundle 'chriskempson/vim-tomorrow-theme'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-rails.git'
+Plugin 'The-NERD-Commenter'
+Plugin 'The-NERD-tree'
+Plugin 'ack.vim'
+Plugin 'bufexplorer.zip'
+Plugin 'vim-coffee-script'
+Plugin 'L9'
+Plugin 'FuzzyFinder'
+Plugin 'ctrlp.vim'
+Plugin 'snipMate'
+Plugin 'Lokaltog/vim-powerline'
+Plugin 'kucaahbe/vim-common-tips'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'Puppet-Syntax-Highlighting'
+Plugin 'slim-template/vim-slim'
+Plugin 'Jinja'
+Plugin 'saltstack/salt-vim'
+Plugin 'sickill/vim-monokai'
+Plugin 'chriskempson/vim-tomorrow-theme'
 
 filetype plugin indent on     " required!
 "
@@ -47,7 +43,7 @@ filetype plugin indent on     " required!
 " NOTE: comments after Bundle command are not allowed..
 
 "colorscheme monokai
-colorscheme Tomorrow-Night-Bright
+"colorscheme Tomorrow-Night-Bright
 
 " Indents
 set autoindent
@@ -80,13 +76,13 @@ map " <plug>NERDCommenterToggle
 vmap " <plug>NERDCommenterToggle
 
 " open NERDTree on vim start
-autocmd vimenter * NERDTree
+" autocmd vimenter * NERDTree
 "  closes vim if the only window left open is a NERDTree
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+" autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 " NERDTree bindings
-map <F9> :NERDTreeToggle<CR>
-imap <F9> <Esc>:NERDTreeToggle<CR>
+" map <F9> :NERDTreeToggle<CR>
+" imap <F9> <Esc>:NERDTreeToggle<CR>
 
 " Ack search - Command+Shift+F
 map <D-F> :Ack<space>
